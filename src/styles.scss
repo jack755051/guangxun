@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+//Color
+$primary-color: #1E90FF;
+$secondary-color:#F5F5F5;
+//Button Color
+$primary-button-color:#FFA500;
+$secondary-button-color:#5F9EA0;
+//Background Color
+$primary-background-color:#FFFFFF;
+$secondary-background-color:#F0F0F0;
+
+@import "assets/scss/breadcrumb.scss";

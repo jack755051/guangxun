@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
+import {CoreModule} from "./core/core.module";
+import {SharedModule} from "./share/shared.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoreModule,
+    SharedModule
   ],
   providers: [
     provideClientHydration()
