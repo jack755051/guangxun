@@ -27,6 +27,7 @@
             "outputPath": "dist/guangxun-front",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "preserveSymlinks": true,
             "polyfills": [
               "zone.js"
             ],

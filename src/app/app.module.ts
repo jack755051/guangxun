@@ -9,6 +9,8 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
 import {CoreModule} from "./core/core.module";
 import {SharedModule} from "./share/shared.module";
 
+import {MatButtonModule} from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import {SharedModule} from "./share/shared.module";
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    //----------
+    MatButtonModule
   ],
   providers: [
     provideClientHydration()
