@@ -6,6 +6,7 @@ import {BreadcrumbComponent} from "./components/breadcrumb/breadcrumb.component"
 import {CommonModule} from "@angular/common";
 import { DailogComponent } from './components/dailog/dailog.component';
 import { CardComponent } from './components/card/card.component';
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardComponent } from './components/card/card.component';
     CardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,

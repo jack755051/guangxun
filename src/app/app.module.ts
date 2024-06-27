@@ -10,13 +10,14 @@ import {CoreModule} from "./core/core.module";
 import {SharedModule} from "./share/shared.module";
 
 import {MatButtonModule} from '@angular/material/button';
+import {HeaderComponent} from "./share/components/header/header.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
   ],
   imports: [
     BrowserModule,
